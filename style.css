@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --title-400: #202024;
+  --description: #121214;
+  --blue-500: #065E7C;
+  --blue-300: #387E96;
+  --white: #FFF;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
+}
