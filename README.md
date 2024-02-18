@@ -1,7 +1,6 @@
 # finances
 
-![image](https://github.com/Diegodkid/finance/assets/90665510/3a93a698-cc87-4099-8e6c-81ec32f5844f)
-![image](https://github.com/Diegodkid/finance/assets/90665510/f294fb14-6a13-4d35-8933-06dd4a4e1ce2) 
+![image](https://github.com/Diegodkid/Cat-blog/assets/90665510/ceb214b3-4817-42fe-8d3b-5d04a49af6af)
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
