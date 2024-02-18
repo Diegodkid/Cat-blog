@@ -38,6 +38,6 @@ Você pode visitar e usar o site através [desse link](https://www.figma.com/fil
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-* **Link para o projeto** - [Blog de gatos](https://finance.netlify.app/)
+* **Link para o projeto** - [Blog de gatos](https://cat-blog.netlify.app)
 
 Feito by Diegodkid :wave: 
