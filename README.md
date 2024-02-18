@@ -1,6 +1,6 @@
-# finances
+# Cat blog
 
-![image](https://github.com/Diegodkid/Cat-blog/assets/90665510/ceb214b3-4817-42fe-8d3b-5d04a49af6af)
+![image](https://github.com/Diegodkid/Cat-blog/assets/90665510/b29ecece-df06-43b6-9969-20bc0e9471e6)
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
