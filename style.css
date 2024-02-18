@@ -10,10 +10,11 @@
 :root {
   font-size: 62.5%;
 
+  --hue: 195;
   --title-400: hsl(240, 6%, 13%);
   --description: hsl(240, 5%, 7%);
-  --blue-500: hsl(195, 91%, 25%);
-  --blue-300: hsl(195, 46%, 40%);
+  --blue-500: hsl(var(--hue), 91%, 30%);
+  --blue-300: hsl(var(--hue), 46%, 50%);
   --white: #FFF;
 }
 
@@ -51,10 +52,20 @@ header img {
 header {
   padding: 1.6rem 0;
   height: 8rem;
+  background: var(--blue-500);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+.header-wrapper {
   display: flex;
   align-items: center;
+  width: 100%;
   gap: 2.5rem;
-  background: var(--blue-500);
+  margin-inline: auto;
 }
 
 header form {
@@ -157,31 +168,23 @@ footer {
     "main main aside"
     "footer footer footer";
     height: 100vh;
-    width: 120rem;
     justify-content: center;
     margin: 0 auto;
     column-gap: 3.4rem;
   }
 
-  header::before {
-    content: '';
-    width: 100%;
-    height: 8rem;
-    background: var(--blue-500);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-
   header {
     grid-area: header;
+
+  }
+
+  .header-wrapper {
+    width: 123rem;
   }
 
   main {
     grid-area: main;
     width: 80rem;
-    /* margin-top: 3.4rem; */
   }
 
   main img {
@@ -202,22 +205,38 @@ footer {
   footer {
     grid-area: footer;
     height: 8rem;
-    align-self: end;
-  } 
-
-  footer::before {
-    content: '';
-    width: 100%;
-    height: 8rem;
-    background: var(--blue-500);
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: -1;
-  }
+    width: 100%;
+  } 
 
   article.container{
     padding: 0;
+  }
+
+  main > img {
+    animation: move .4s;
+  }
+
+  @keyframes move {
+    0% {
+      opacity: 0;
+      transform: scale(0.7);
+      /* transform: rotateY(120deg); */
+    }
+  }
+
+  .sections section {
+    --delay: .2s;
+    animation: appear .4s var(--delay) backwards;
+  }
+
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      transform: rotateY(90deg);
+    }
   }
 }
 
