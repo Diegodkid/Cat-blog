@@ -1,7 +1,6 @@
-# finances
+# Cat blog
 
-![image](https://github.com/Diegodkid/finance/assets/90665510/3a93a698-cc87-4099-8e6c-81ec32f5844f)
-![image](https://github.com/Diegodkid/finance/assets/90665510/f294fb14-6a13-4d35-8933-06dd4a4e1ce2) 
+![image](https://github.com/Diegodkid/Cat-blog/assets/90665510/b29ecece-df06-43b6-9969-20bc0e9471e6)
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -39,6 +38,6 @@ Você pode visitar e usar o site através [desse link](https://www.figma.com/fil
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-* **Link para o projeto** - [Blog de gatos](https://finance.netlify.app/)
+* **Link para o projeto** - [Blog de gatos](https://cat-blog.netlify.app)
 
 Feito by Diegodkid :wave: 
